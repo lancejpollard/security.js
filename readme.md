@@ -13,10 +13,17 @@ Security utilities for Node.js and the Browser.
 - [ ] PKCE on top of the Oauth2
 - [ ] Secure random hash generation
 - [ ] Possibly [OIDC](https://github.com/panva/node-oidc-provider)
+- [ ] Multifactor Authentication
 
-Essentially, everything you'd need to implement robust authentication in your app without paying for it like with Okta or Auth0.
+Essentially, everything you'd need to implement robust authentication in your app without paying for it like with Okta or Auth0. In many cases it is just a thin wrapper around existing libraries, in other cases it does slightly more.
 
 - [Oauth2orize](https://github.com/jaredhanson/oauth2orize) only works with Express.js and Passport.js (not Next.js)
+- [Vanilla JS PKCE](https://github.com/aaronpk/pkce-vanilla-js/blob/master/index.html)
+- [More PKCE](https://github.com/iambumblehead/pkce-pair/blob/master/pkce-pair.mjs)
+- https://github.com/Tim-Erwin/oauth2-pkce/blob/main/helpers.ts
+- [Oauth 2.0 Authorization Code Grant](https://oauth.net/2/grant-types/authorization-code/)
+- https://www.oauth.com/oauth2-servers/single-page-apps/
+- https://github.com/oauthjs/node-oauth2-server
 
 ## API
 

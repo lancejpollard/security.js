@@ -2,6 +2,7 @@
   "name": "@lancejpollard/security.js",
   "version": "0.0.1",
   "dependencies": {
+    "@node-oauth/oauth2-server": "^4.1.1",
     "client-oauth2": "^4.3.3"
   }
 }
