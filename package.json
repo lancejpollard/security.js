@@ -1,4 +1,7 @@
 {
   "name": "@lancejpollard/security.js",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "client-oauth2": "^4.3.3"
+  }
 }
