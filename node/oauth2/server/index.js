@@ -18,6 +18,7 @@ class Server {
   }
 
   // https://github.com/manjeshpv/node-oauth2-server-implementation/blob/master/components/oauth/authenticate.js
+  // https://niceprogrammer.com/express-js-oauth-2-server-using-oauth2-server-package/
   async authenticate() {
     var request = new Request({
       headers: {authorization: req.headers.authorization},

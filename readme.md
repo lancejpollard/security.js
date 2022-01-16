@@ -24,6 +24,8 @@ Essentially, everything you'd need to implement robust authentication in your ap
 - [Oauth 2.0 Authorization Code Grant](https://oauth.net/2/grant-types/authorization-code/)
 - https://www.oauth.com/oauth2-servers/single-page-apps/
 - https://github.com/oauthjs/node-oauth2-server
+- https://github.com/14gasher/oauth-example
+- https://github.com/lelylan/simple-oauth2
 
 ## API
 
